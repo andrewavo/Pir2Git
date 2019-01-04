@@ -19,12 +19,12 @@
                 </a>
             </div>
 
-            <div class="search">
-                <img src="img/Search.svg" alt="Поиск" class="search__icon">
-                <form name="filter" method="get">
-                    <input type="text" placeholder="Примените фильтр или введите слово">
-                </form>
-            </div>
+            <form name="filter" method="get" class="search">
+                <label for="search-input">
+                    <img src="img/Search.svg" alt="Поиск" class="search__icon">
+                </label>
+                <input id="search-input" type="text" placeholder="Примените фильтр или введите слово">
+            </form>
 
             <div class="action-button">
                 <a class="action-button__main" href="#">Создать</a>
